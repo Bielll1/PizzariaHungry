@@ -92,7 +92,7 @@ body{
     font-size: 22px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     /* grid-gap: 20px; */
     max-width: 50rem;
     margin: auto;
@@ -141,7 +141,7 @@ body{
 
 .intro .banner .pizza_banner{
     max-width: 100%;
-    margin-top: -173px;
+    margin-top: -29%;
     /* border-style: solid; */
     /* border-width: 3px; */
     /* border-image: linear-gradient(to left, #ffc00000 1%, #ffc000 50%, rgb(0 0 0 / 0%) 100%) 100% 0 100% 0/0px 0 2px 0 stretch; */
@@ -374,7 +374,21 @@ button {
     .nav-icon-cart{
         height: 36px;
     }
+    .intro .banner .pizza_banner {
+        max-width: 100%;
+        margin-top: -25%;
+    }
 }
+
+@media (max-width: 425px) {
+    .container_menu{
+        border-radius: 17px;
+        font-size: 15px;
+        margin: auto;
+    }
+}
+
+
 
 .container a{
     color: #ffc000;
