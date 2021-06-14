@@ -251,7 +251,7 @@ footer p{
     align-items: center;
     flex-wrap: wrap;
     padding-top: 1rem;
-    min-width: 100%;
+    min-width: 104%;
 }
 
 .bar_text placeholder{
@@ -272,7 +272,7 @@ footer p{
 
 .perfil_form form .btn_login{
     padding: 15px;
-    width: 200px;
+    max-width: 200px;
     color: black;
     outline: none;
     margin-top: 6px;
@@ -280,6 +280,7 @@ footer p{
     border: none;
     font-size: 17px;
     border-radius: 7px;
+    min-width: width: 99%;
 }
 
 .perfil_form h1{
