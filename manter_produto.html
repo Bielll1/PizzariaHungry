@@ -19,7 +19,7 @@
                     <li><a href="administrador.html">Administrador</a></li>
                     <li><a href="manter_produto.html">Produtos</a></li>
                     <li><a href="funcionarios.html">+Funcionarios</a></li>
-                    <li><a href="login.html">Sair</a></li>
+                    <li><a href="Login.html">Sair</a></li>
                 </ul>
 			</div>
 		</div>
@@ -36,12 +36,23 @@
                 <table id="example" class="table_funcionarios">
                     <thead>
                     <th>Imagem</th>
+                    <th>Cartegoria</th>
                     <th>Nome do produto</th>
                     <th>Valor</th>
                     <th>Ação</th>
                     </thead>
                     <tbody>
                     <td><input type="file" name="arquivos" class="btn btn-​success" accept="image/png, image/jpeg" multiple /></td>
+                    <td><div class="">
+                    <form accept-charset="UTF-8" role="form" action="compra_feita_com_sucesso.html">
+                            <select class="tipo_pagamento">
+                                <option>Selecione</option>
+                                <option value="1">Pizza</option>
+                                <option value="2">Refri</option>
+                                <option value="3">Burgue</option>
+                                <option value="4">Promoções</option>
+                            </select>
+                        </form></div></td>
                     <td><input style="max-width: 70px; text-align: center;"  placeholder="Nome" type="" name=""></td>
                     <td>R$ <input style="max-width: 70px; text-align: center;"  placeholder="00,00" type="" name=""> </td>
                     <td>
