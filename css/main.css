@@ -576,17 +576,3 @@ footer a{
     justify-content: center;
     text-align: center;
 }
-
-.bnt_consultar{
-    padding: 15px;
-    max-width: 200px;
-    color: black;
-    outline: none;
-    margin-top: 6px;
-    background: #ffc000;
-    border: none;
-    font-size: 17px;
-    border-radius: 7px;
-    min-width: width: 99%;
-    color: #c90000;
-}
