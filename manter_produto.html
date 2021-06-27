@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Login | Pizzaria Hungry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="header_navbar">
+		<div class="container_navbar">
+			<a href="index.html"><img src="logo.png" class="nav-icon-logo"></a>
+			<div class="container_nav">
+				<ul>
+                    <li><a href="administrador.html">Administrador</a></li>
+                    <span></span>
+                    <li><a href="manter_produto.html">Produtos</a></li>
+                    <span></span>
+                    <li><a href="funcionarios.html">+Funcionarios</a></li>
+                    <span></span>
+                    <li><a href="gerenciamento_de_pedidos.html">Pedidos</a></li>
+                    <span></span>
+                    <li><a href="login.html">Sair</a></li>
+                </ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+            <div class="panel panel-default">
+            	<br>
+                <div class="panel-heading">
+                    <h1 class="panel-title">Manter produtos</h1><br>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table id="example" class="table_funcionarios">
+                    <thead>
+                    <th>Imagem</th>
+                    <th>Cartegoria</th>
+                    <th>Nome do produto</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
+                    </thead>
+                    <tbody>
+                    <td><input type="file" name="arquivos" class="btn btn-​success" accept="image/png, image/jpeg" multiple /></td>
+                    <td><div class="">
+                    <form accept-charset="UTF-8" role="form" action="compra_feita_com_sucesso.html">
+                            <select class="tipo_pagamento">
+                                <option>Selecione</option>
+                                <option value="1">Pizza</option>
+                                <option value="2">Refri</option>
+                                <option value="3">Burgue</option>
+                                <option value="4">Promoções</option>
+                            </select>
+                        </form></div></td>
+                    <td><input style="max-width: 70px; text-align: center;"  placeholder="Nome" type="" name=""></td>
+                    <td>R$ <input style="max-width: 70px; text-align: center;"  placeholder="00,00" type="" name=""> </td>
+                    <td>
+                        <a type="button" class="btn btn-info" href="acao_feita_com_sucesso.html">Adicionar</a> 
+                    </tbody>
+                </table>  
+
+
+
+                <BR><h1 class="panel-title">PIZZA HUNGRY</h1><br><br>
+                <div class="promotions">
+                    <div  class="unidades">
+                        <img src="img/promotions/unidade_1.png">
+                        <h4>Pizza Calabreza</h4>
+                        <h2>R$ 17,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/promotions/unidade_2.png">
+                        <h4>Pizza Catupery</h4>
+                        <h2>R$ 18,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/promotions/unidade_3.png">
+                        <h4>Pizza Nova York</h4>
+                        <h2>R$ 15,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <BR><br><h1 class="panel-title">REFRI HUNGRY</h1><br><br>
+                <div class="promotions">
+                    <div class="unidades">
+                        <img src="img/menu/refri/1.png">
+                        <h4>Coca Lata 350ml</h4>
+                        <h2>R$ 7,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/menu/refri/2.png">
+                        <h4>Guarana Antarctica 350ml</h4>
+                        <h2>R$ 7,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/menu/refri/3.png">
+                        <h4>Fanta Uva 350ml</h4>
+                        <h2>R$ 7,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <BR><br><h1 class="panel-title">BURGUE HUNGRY</h1><br><br>
+                <div class="promotions">
+                    <div class="unidades">
+                        <img src="img/menu/burges/1.png">
+                        <h4>Burger</h4>
+                        <h2>R$ 25,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/menu/burges/2.png">
+                        <h4>Burger</h4>
+                        <h2>R$ 27,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/menu/burges/3.png">
+                        <h4>Burger</h4>
+                        <h2>R$ 30,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <BR><h1 class="panel-title">Promoções da semana</h1><br><br>
+                <div class="promotions">
+                    <div  class="unidades">
+                        <img src="img/promotions/unidade_1.png">
+                        <h4>Pizza Calabreza</h4>
+                        <h2>R$ 17,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/promotions/unidade_2.png">
+                        <h4>Pizza Catupery</h4>
+                        <h2>R$ 18,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <img src="img/promotions/unidade_3.png">
+                        <h4>Pizza Nova York</h4>
+                        <h2>R$ 15,00</h2>
+                        <div class="container_butao_comprar_adicionar">
+                            <a href="alterar_produto.html" class="bnt_comprar"><b>ALTERAR</b></a>
+                            <button><b>X</b></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+	<footer>
+		<p>
+			Copyright © Pizzaria Hungry 2021.
+		</p>
+	</footer>
+</body>
+</html>
