@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Login | Pizzaria Hungry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="header_navbar">
+        <div class="container_navbar">
+            <a href="cardapio.html"><img src="logo.png" class="nav-icon-logo"></a>
+            <div class="container_nav">
+                <ul>
+                    <li><a href="cardapio.html">Inicio</a></li>
+                    <span></span>
+                    <li><a href="manter_produto.html">Produtos</a></li>
+                    <span></span>
+                    <li><a href="funcionarios.html">+Funcionarios</a></li>
+                    <span></span>
+                    <li><a href="cliente.html">+Cliente</a></li>
+                    <span></span>
+                    <li><a href="gerenciamento_de_pedidos.html">Pedidos</a></li>
+                    <span></span>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+                <a href="carrinho.html"><img src="img/cart.png" class="nav-icon-cart"></a>
+            </div>
+        </div>
+    </header>
+
+	<div class="container">
+            <div class="panel panel-default">
+            	<br>
+                <div class="panel-heading">
+                    <h1 class="panel-title">Inserir Funcionarios</h1><br>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <br>
+                <div class="perfil_form panel-body">
+                    <form accept-charset="UTF-8" role="form" action="inserido_com_sucesso.html">
+                        <div class="form-group">
+                            <input class="bar_text form-control" required placeholder="Nome" name="nome" type="nome">
+                        </div>
+                        <div class="form-group">
+                            <input class="bar_text form-control" required placeholder="000.000.000-00" name="cpf" type="cpf" value="">
+                        </div>
+                        <div class="form-group">
+                            <input class="bar_text form-control" required placeholder="(00) 0 0000-0000" name="tel" type="tel">
+                        </div>
+                        <div class="form-group">
+                            <input class="bar_text form-control" required placeholder="E-mail" name="email" type="email">
+                        </div>
+                        <div class="form-group">
+                            <input class="bar_text form-control" required placeholder="Senha" name="password" type="password">
+                        </div>
+                        <div class="bnt_style">
+                            <input class="btn_login btn btn-lg btn-success btn-block" type="submit" value="Inserir">
+                            <a href="funcionarios.html" class="btn_login btn btn-lg btn-success btn-block botao_info" >Voltar</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div><br>
+
+
+
+        </div>
+
+
+
+	<footer>
+		<p>
+			Copyright © Pizzaria Hungry 2021.
+		</p>
+	</footer>
+</body>
+</html>

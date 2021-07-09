@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Pizzaria Hungry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="header_navbar">
+        <div class="container_navbar">
+            <a href="cardapio.html"><img src="logo.png" class="nav-icon-logo"></a>
+            <div class="container_nav">
+                <ul>
+                    <li><a href="cardapio.html">Inicio</a></li>
+                    <span></span>
+                    <li><a href="manter_produto.html">Produtos</a></li>
+                    <span></span>
+                    <li><a href="funcionarios.html">+Funcionarios</a></li>
+                    <span></span>
+                    <li><a href="cliente.html">+Cliente</a></li>
+                    <span></span>
+                    <li><a href="gerenciamento_de_pedidos.html">Pedidos</a></li>
+                    <span></span>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+                <a href="carrinho.html"><img src="img/cart.png" class="nav-icon-cart"></a>
+            </div>
+        </div>
+    </header>
+
+	<div class="container">
+
+            <form method="post" name="#">
+                <div class="form-group"><br><br>
+                    <h1 class="">Consulta Cliente</h1><br>
+                    <input type="text" placeholder="000.000.000-00" class="form-control" name="cpf" required>
+                </div><br>
+                <a type="submit" style="min-width: 20px; max-width: 200px;" href="acao_feita_com_sucesso.html" class="bnt_comprar" name="#"><span></span><b>Consultar</b></a>
+            </form><br><br>
+
+            <h1 class="">Resultado da consulta</h1><br>
+            <div class="table-responsive">
+                <table id="example" class="table_funcionarios">
+                    <thead>
+                    <th>Nome</th>
+                    <th>CPF</th>
+		    <th>Telefone</th>
+                    <th>E-mail</th>
+                    <th>Senha</th>
+                    <th>Ação</th>
+                    </thead>
+                    <tbody>
+                    <td>Mario</td>
+                    <td>00033355596</td>
+                    <td>61985477444</td>
+                    <td>mariodasilva2020@gmail.com</td>
+                    <td>****************</td>
+                    <td>
+                        <a type="button" href="alterar_cliente.html" class="btn btn-info" ><b>Alterar</b></a> 
+                        <a type="button" href="acao_feita_com_sucesso.html" class="btn btn-info"><b>Exluir</b></a></td>
+                    </tbody>
+                </table>                         
+            </div>
+        </div>
+	<footer>
+		<p>
+			Copyright © Pizzaria Hungry 2021.
+		</p>
+	</footer>
+</body>
+</html>
